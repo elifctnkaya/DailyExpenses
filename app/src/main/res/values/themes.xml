@@ -6,4 +6,5 @@
     </style>
 
     <style name="Theme.DailyExpenses" parent="Base.Theme.DailyExpenses" />
+
 </resources>

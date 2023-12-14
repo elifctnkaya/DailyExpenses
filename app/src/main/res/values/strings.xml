@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Daily Expenses</string>
+    <string name="app_name">Harcama Günlüklerim</string>
+
+    //titles
+    <string name="expenses_page_title">Harcamalarım</string>
+    <string name="home_page_title">Anasayfa</string>
+
 </resources>
