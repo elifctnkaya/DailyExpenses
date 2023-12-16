@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/home_navigation"
+        android:id="@+id/navigation_home"
         android:icon="@drawable/icon_account"
         android:enabled="true"
         android:title="Anasayfa" />
 
     <item
-        android:id="@+id/navigation_search"
-        android:icon="@drawable/icon_account"
+        android:id="@+id/navigation_expenses"
+        android:icon="@drawable/icon_expenses"
         android:enabled="true"
-        android:title="item2" />
+        android:title="Harcamalarım" />
 
-    <item
-        android:id="@+id/navigation_data_management"
-        android:icon="@drawable/icon_account"
-        android:enabled="true"
-        android:title="Hesabım" />
 
 </menu>

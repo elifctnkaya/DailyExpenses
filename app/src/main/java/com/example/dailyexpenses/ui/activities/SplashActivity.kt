@@ -3,8 +3,6 @@ package com.example.dailyexpenses.ui.activities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.navigation.NavController
-import androidx.navigation.findNavController
 import com.example.dailyexpenses.R
 import com.example.dailyexpenses.databinding.ActivitySplashBinding
 
