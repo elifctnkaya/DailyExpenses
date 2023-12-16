@@ -5,4 +5,9 @@
     <string name="expenses_page_title">Harcamalarım</string>
     <string name="home_page_title">Anasayfa</string>
 
+
+    <string name="calendar">Takvim</string>
+    <string name="home">Anasayfa</string>
+    <string name="profile">Hesabım</string>
+
 </resources>
