@@ -2,16 +2,16 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navigation"
-    app:startDestination="@id/home_navigation">
+    android:id="@+id/bottomNavigation"
+    app:startDestination="@id/navigation_home">
     <fragment
-        android:id="@+id/home_navigation"
+        android:id="@+id/navigation_home"
         android:name="com.example.dailyexpenses.ui.home.HomeFragment"
         android:label="@string/home_page_title"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/expenses_navigation"
-        android:name="com.example.dailyexpenses.ui.expenses.ExpensesFragment"
+        android:id="@+id/navigation_statistics"
+        android:name="com.example.dailyexpenses.ui.statistics.StatisticsFragment"
         android:label="@string/expenses_page_title"
-        tools:layout="@layout/fragment_expenses" />
+        tools:layout="@layout/fragment_statistics" />
 </navigation>

@@ -19,5 +19,4 @@
     <string name="createAccount">Create Account</string>
     <string name="loginClick">Already have an account? Login</string>
     <string name="registerClick">Don\'t you have an account? Register</string>
-
 </resources>

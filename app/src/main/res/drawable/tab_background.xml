@@ -1,0 +1,25 @@
+<!-- res/drawable/tab_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FF4081" /> <!-- Seçili tab arka plan rengi -->
+                    <corners android:radius="16dp" /> <!-- Köşe yarıçapı -->
+                </shape>
+            </item>
+            <item android:bottom="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#FFFFFF" /> <!-- Alt çizgi rengi -->
+                    <corners android:radius="16dp" /> <!-- Köşe yarıçapı -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0" /> <!-- Seçili olmayan tab arka plan rengi -->
+            <corners android:radius="16dp" /> <!-- Köşe yarıçapı -->
+        </shape>
+    </item>
+</selector>
