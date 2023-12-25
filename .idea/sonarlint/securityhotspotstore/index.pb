@@ -39,3 +39,9 @@ p
 @app/src/main/java/com/example/dailyexpenses/common/BaseCommon.kt,0/7/07d9225b4f757ae93fabcb5f7f927478cf006397
 {
 Kapp/src/main/java/com/example/dailyexpenses/ui/statistics/ChartsFragment.kt,b/e/becea12226ef88dbe0fa879b3f347b7d8c7e49b6
+s
+Capp/src/main/java/com/example/dailyexpenses/ui/home/HomeFragment.kt,b/6/b652963233e88d7de0325388fddb0449873d9da1
+
+Oapp/src/main/java/com/example/dailyexpenses/ui/statistics/StatisticsFragment.kt,7/a/7a2becd5f5dcb536aa049b5a8ef703557200b578
+…
+Uapp/src/main/java/com/example/dailyexpenses/ui/expenseDetail/ExpenseDetailFragment.kt,3/a/3ae31726a914aef861333c4defcd4c329f4bea0e
