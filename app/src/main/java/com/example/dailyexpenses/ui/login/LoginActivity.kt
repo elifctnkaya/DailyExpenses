@@ -9,7 +9,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.dailyexpenses.common.BaseCommon
 import com.example.dailyexpenses.databinding.ActivityLoginBinding
 import com.example.dailyexpenses.ui.activities.MainActivity
-import com.example.dailyexpenses.vievmodel.RegisterViewModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase

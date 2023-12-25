@@ -37,3 +37,5 @@ i
 9app/src/main/java/com/example/dailyexpenses/LoginModel.kt,2/7/279c77ed7d734915ecb603628177519a9a8c6af6
 p
 @app/src/main/java/com/example/dailyexpenses/common/BaseCommon.kt,0/7/07d9225b4f757ae93fabcb5f7f927478cf006397
+{
+Kapp/src/main/java/com/example/dailyexpenses/ui/statistics/ChartsFragment.kt,b/e/becea12226ef88dbe0fa879b3f347b7d8c7e49b6

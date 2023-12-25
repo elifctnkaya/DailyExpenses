@@ -89,7 +89,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:backgroundTint="@color/pink"
+        android:backgroundTint="@color/blue_1"
         android:text="@string/signIn"
         android:clickable="true"
         android:layout_marginTop="30dp"

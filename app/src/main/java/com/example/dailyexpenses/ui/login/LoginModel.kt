@@ -1,4 +1,4 @@
-package com.example.dailyexpenses
+package com.example.dailyexpenses.ui.login
 
 data class LoginModel (
     var email: String,

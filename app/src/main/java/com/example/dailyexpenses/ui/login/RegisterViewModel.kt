@@ -1,4 +1,4 @@
-package com.example.dailyexpenses.vievmodel
+package com.example.dailyexpenses.ui.login
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
