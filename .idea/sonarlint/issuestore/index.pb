@@ -25,3 +25,15 @@ n
 >app/src/main/java/com/example/dailyexpenses/MainApplication.kt,1/9/1946bcff6d862eb844683ff8d4b09a6dae3fae81
 {
 Kapp/src/main/java/com/example/dailyexpenses/ui/activities/SplashActivity.kt,3/a/3a14659d7a93901f8e0314fe665f8fa23ed53443
+u
+Eapp/src/main/java/com/example/dailyexpenses/ui/login/LoginActivity.kt,e/1/e1b1410b39a7a3e0f7c3fff9dab219cccadd1e99
+x
+Happ/src/main/java/com/example/dailyexpenses/ui/login/RegisterActivity.kt,a/a/aa717026fd318d1af3b0592602f587583830d4cf
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+z
+Japp/src/main/java/com/example/dailyexpenses/vievmodel/RegisterViewModel.kt,2/6/26ef34e963b3b5c5ee9497038eabc8e8d3908c3b
+i
+9app/src/main/java/com/example/dailyexpenses/LoginModel.kt,2/7/279c77ed7d734915ecb603628177519a9a8c6af6
+p
+@app/src/main/java/com/example/dailyexpenses/common/BaseCommon.kt,0/7/07d9225b4f757ae93fabcb5f7f927478cf006397

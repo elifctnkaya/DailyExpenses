@@ -10,5 +10,14 @@
     <string name="home">Anasayfa</string>
     <string name="profile">Hesabım</string>
     <string name="statistics">İstatistik</string>
+    <string name="login">Login</string>
+    <string name="signIn">Sign In</string>
+    <string name="forgotPass">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="createAccount">Create Account</string>
+    <string name="loginClick">Already have an account? Login</string>
+    <string name="registerClick">Don\'t you have an account? Register</string>
 
 </resources>

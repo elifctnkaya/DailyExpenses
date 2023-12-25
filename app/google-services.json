@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "492797615458",
+    "project_id": "daily-expenses-44575",
+    "storage_bucket": "daily-expenses-44575.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492797615458:android:33f5d91b6caf9f96ffa03b",
+        "android_client_info": {
+          "package_name": "com.example.dailyexpenses"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1C4eWCCkid8TK-_CsfK1pnrWv03vNG7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
