@@ -7,38 +7,36 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager2.widget.ViewPager2
 import com.example.dailyexpenses.R
+import com.example.dailyexpenses.databinding.FragmentStatisticsBinding
+import com.google.android.material.tabs.TabItem
+import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import java.lang.Math.abs
 
 class StatisticsFragment : Fragment() {
+    private val binding by lazy { FragmentStatisticsBinding.inflate(layoutInflater) }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        val rootView = inflater.inflate(R.layout.fragment_statistics, container, false)
-
-        rootView.findViewById<ViewPager2>(R.id.viewPager).setPageTransformer { page, position ->
-            // Özel sayfa geçiş animasyonları ekleyebilirsiniz
-            // Örneğin, sayfaları yatayda kaydırma animasyonu ekleyebilirsiniz
-            page.translationX = -position * page.width
-            page.alpha = 1 - abs(position)
-        }
-
+    ): View {
+        return binding.root
+    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         val tabNames = listOf("Günlük", "Haftalık", "Aylık")
-
-        rootView.findViewById<ViewPager2>(R.id.viewPager).adapter = StatisticsPagerAdapter(this)
-
-        TabLayoutMediator(rootView.findViewById(R.id.tabLayout), rootView.findViewById(R.id.viewPager)) { tab, position ->
+        binding.viewPager2.adapter =StatisticsPagerAdapter(this)
+        TabLayoutMediator(binding.tabLayout,binding.viewPager2) { tab, position ->
             tab.text = tabNames[position]
         }.attach()
-
-        return rootView
+    }
+    override fun onPause() {
+        super.onPause()
+        binding.viewPager2?.adapter = null
+    }
+    override fun onStop() {
+        super.onStop()
+        binding.viewPager2?.adapter = null
     }
 
-    companion object {
-        fun newInstance(): StatisticsFragment {
-            return StatisticsFragment()
-        }
-    }
 }

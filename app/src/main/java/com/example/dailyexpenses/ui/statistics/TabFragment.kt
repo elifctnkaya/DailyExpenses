@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.dailyexpenses.databinding.FragmentTabBinding
 
+
 class TabFragment : Fragment() {
     private lateinit var binding: FragmentTabBinding
 
@@ -16,8 +17,6 @@ class TabFragment : Fragment() {
         binding = FragmentTabBinding.inflate(inflater, container, false)
         val args = requireArguments()
         val tabName = args.getString(ARG_TAB_NAME, "")
-
-        // Burada tab adını kullanarak gerekli işlemleri yapabilirsiniz
 
         return binding.root
     }
