@@ -1,14 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.expenseDetail.ExpenseDetailFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textExpenseName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="expense name: "/>
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/editExpenseName"
+        app:layout_constraintLeft_toRightOf="@+id/textExpenseName"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_margin="10dp"
+        android:hint="expense name: "/>
+
+    <TextView
+        android:id="@+id/textExpenseCategory"
+        app:layout_constraintTop_toBottomOf="@+id/textExpenseName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="expense category: "/>
+
+    <Spinner
+        android:id="@+id/spinnerExpenseCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/editExpenseName"
+        app:layout_constraintLeft_toRightOf="@+id/textExpenseCategory"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/textExpenseCategory"
+        android:id="@+id/textExpense"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="expense name: "/>
+
+    <EditText
+        android:id="@+id/editExpense"
+        app:layout_constraintLeft_toRightOf="@+id/textExpense"
+        app:layout_constraintTop_toBottomOf="@+id/textExpenseCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="expense name: "/>
+
+    <TextView
+        android:id="@+id/textPayment"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textExpense"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="payment type: "/>
+
+    <Spinner
+        android:id="@+id/spinnerPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/textExpense"
+        app:layout_constraintLeft_toRightOf="@+id/textPayment"/>
+
+
+    <Button
+        android:id="@+id/saveButton"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerPayment"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        android:text="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

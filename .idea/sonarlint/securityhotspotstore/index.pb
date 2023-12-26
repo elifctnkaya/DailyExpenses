@@ -31,10 +31,6 @@ x
 Happ/src/main/java/com/example/dailyexpenses/ui/login/RegisterActivity.kt,a/a/aa717026fd318d1af3b0592602f587583830d4cf
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
-z
-Japp/src/main/java/com/example/dailyexpenses/vievmodel/RegisterViewModel.kt,2/6/26ef34e963b3b5c5ee9497038eabc8e8d3908c3b
-i
-9app/src/main/java/com/example/dailyexpenses/LoginModel.kt,2/7/279c77ed7d734915ecb603628177519a9a8c6af6
 p
 @app/src/main/java/com/example/dailyexpenses/common/BaseCommon.kt,0/7/07d9225b4f757ae93fabcb5f7f927478cf006397
 {
@@ -45,3 +41,11 @@ Capp/src/main/java/com/example/dailyexpenses/ui/home/HomeFragment.kt,b/6/b65296
 Oapp/src/main/java/com/example/dailyexpenses/ui/statistics/StatisticsFragment.kt,7/a/7a2becd5f5dcb536aa049b5a8ef703557200b578
 …
 Uapp/src/main/java/com/example/dailyexpenses/ui/expenseDetail/ExpenseDetailFragment.kt,3/a/3ae31726a914aef861333c4defcd4c329f4bea0e
+z
+Japp/src/main/java/com/example/dailyexpenses/database/ExpenseDetailModel.kt,4/6/46784255e3092e69c837f3f61e32dbd115cafb06
+s
+Capp/src/main/java/com/example/dailyexpenses/database/ExpensesDao.kt,3/6/360534558421b8b20d9301b72449776e6ca99162
+x
+Happ/src/main/java/com/example/dailyexpenses/database/ExpensesDatabase.kt,6/5/65589b327aceea90802cacffb1c53a27337ff370
+m
+=app/src/main/java/com/example/dailyexpenses/util/Extension.kt,e/b/eb841cd0ed58b732df20924c7adda655956caef7
